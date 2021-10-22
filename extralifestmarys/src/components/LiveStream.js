@@ -15,29 +15,28 @@ import {
 export default function LiveStream() {
   return (
     <div>
-<h3 className="d-none d-sm-block"> Live Streams:
+<h3 className="d-none d-sm-block"> Schedule and Live Streams:
           </h3>
           <h4>Updated Hourly</h4>
           <div className="project-container">
-            <a href="https://w4tch-tow3r.herokuapp.com/" className="projects proj1 gradient-box">
+            <a href="https://w4tch-tow3r.herokuapp.com/" className="projects gradient-box border15">
             </a>
-            <div className="projects gradient-box">
+            <div className="projects gradient-box border15">
 
             </div>
-            <div className="projects gradient-box">
+            <div className="projects gradient-box border15">
 
             </div>
-            <div className="projects gradient-box">
+            <div className="projects gradient-box border15">
 
             </div>
-            <div className="projects gradient-box">
+            <div className="projects gradient-box border15">
 
             </div>
-            <div className="projects gradient-box">
+            <div className="projects gradient-box border15">
 
             </div>
           </div>
-
     </div>
   );
 }
