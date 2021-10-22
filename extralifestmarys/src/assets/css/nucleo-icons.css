@@ -13,7 +13,14 @@ Created using IcoMoon - icomoon.io
   font-weight: normal;
   font-style: normal;
 }
+.border15 {
+  border: 2px solid purple;
+  border-radius: 15px;
+}
 
+.padding20 {
+  padding: 20px;
+}
 /*------------------------
 	base class definition
 -------------------------*/
@@ -540,4 +547,27 @@ Created using IcoMoon - icomoon.io
 
 .icon-components::before {
   content: "\ea65";
+}
+
+.project-container {
+  display: grid;
+  height: 70vh;
+  grid-template-columns: 0.4fr 0.4fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-gap: 20px;
+}
+
+.projects {
+  background-color: aqua;
+  padding: 5px;
+}
+
+
+
+
+
+.gradient-box {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
