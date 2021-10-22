@@ -8,7 +8,7 @@
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Creative Tim (Thank you Tim!)
 
 =========================================================
 

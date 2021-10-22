@@ -19,7 +19,7 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import PageHeader from "components/PageHeader/PageHeader.js";
+import PageHeader from "pages/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
@@ -45,11 +45,11 @@ export default function Index() {
   },[]);
   return (
     <>
-      <IndexNavbar />
+      {/* <IndexNavbar /> */}
       <div className="wrapper">
         <PageHeader />
         <div className="main">
-          <Basics />
+          {/* <Basics />
           <Navbars />
           <Tabs />
           <Pagination />
@@ -59,9 +59,9 @@ export default function Index() {
           <NucleoIcons />
           <Signup />
           <Examples />
-          <Download />
+          <Download /> */}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
