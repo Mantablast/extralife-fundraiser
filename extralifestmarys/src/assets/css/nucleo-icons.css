@@ -571,3 +571,37 @@ Created using IcoMoon - icomoon.io
   border: 2px solid purple;
   border-radius: 15px;
 }
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.responsive-iframe {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  width: 80%;
+  height: 80%;
+}
+
+.center {
+  display: inline;
+  justify-content: center;
+}
+
+.paddingTop {
+  padding-top: 50px;
+}
