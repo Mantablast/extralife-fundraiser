@@ -21,6 +21,7 @@ import donateButton from '../assets/img/donate.png';
 // reactstrap components
 import { Container } from "reactstrap";
 import LiveStream from "components/LiveStream";
+import Info from "components/Info";
 
 export default function PageHeader() {
   return (
@@ -39,7 +40,8 @@ export default function PageHeader() {
               <img className="padding20" alt="Company Logo" src={companyLogo} />
             </div>
             <h1 className="">November 6, 2021</h1>
-            <h1 className="">24 hour St. Marys Game-a-thon</h1>
+            <h1 className="">24 hour St. Marys</h1>
+            <h1 className="">Game-a-thon</h1>
             <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="border15" alt="Company Logo" src={donateButton} /></a>
           </div>
         </div>
