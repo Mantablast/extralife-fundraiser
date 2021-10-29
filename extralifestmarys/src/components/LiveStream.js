@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import YoutubeLive from "../assets/img/YoutubeLive.png";
+import twitchIcon from "../assets/img/twitchicon.png";
+import fblive from "../assets/img/fblive.png";
 // reactstrap components
 import {
   Button,
@@ -23,18 +25,21 @@ const youtubeId = "RnvhuvYufuE";
 
 
   return (
-    <div className ="center">
+    <div className ="flex-center">
         <Info />
         {/* Youtube /> */}
-        <iframe width="900" height="550" src={"https://www.youtube.com/embed/"+youtubeId} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
+        <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={YoutubeLive} /></a>
+        <iframe className="videoBox" width="900" height="550" src={"https://www.youtube.com/embed/"+youtubeId} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
 
         {/* <Twitch /> */}
-        <iframe src={"https://player.twitch.tv/?video=1153475702&parent="+myLandingPage} frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+        <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={twitchIcon} /></a>
+        <iframe className="videoBox" src={"https://player.twitch.tv/?video=1153475702&parent="+myLandingPage} frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
-        <iframe src={fbLink} width="500" height="1027"  scrolling="no" frameBorder="0" allowFullscreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+        <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={fblive} /></a>
+        <iframe className="videoBox" src={fbLink} width="500" height="1027"  scrolling="no" frameBorder="0" allowFullscreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    
         <h2>About Extralife</h2>
-        <iframe width="900" height="550" src="https://www.youtube.com/embed/CMl8CRJzap4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
+        <iframe className="videoBox" width="900" height="550" src="https://www.youtube.com/embed/CMl8CRJzap4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
         </div>
   );
 }
@@ -46,3 +51,5 @@ const youtubeId = "RnvhuvYufuE";
         width="600">
         </iframe>        */}
 
+           
+            
