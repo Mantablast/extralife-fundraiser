@@ -20,7 +20,7 @@ export default function LiveStream() {
 const Twitchlink = "https://player.twitch.tv/?video=1153475702&parent=localhost";
 const TwitchAccountName = "CriticalRole";
 const fbLink = "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftheverge%2Fvideos%2F170866897132438%2F&show_text=false&width=560&t=0";
-const myLandingPage = "mantablast.github.io/extralife-fundraiser";
+const myLandingPage = "mantablast.github.io/components";
 const youtubeId = "RnvhuvYufuE";
 
 
