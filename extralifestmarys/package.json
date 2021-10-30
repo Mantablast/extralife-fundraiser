@@ -1,5 +1,6 @@
 {
   "name": "blk-design-system-react",
+  
   "version": "1.2.0",
   "description": "React version of BLK Design System by Creative Tim",
   "main": "index.js",
@@ -12,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
+  "homepage": "http://mantablast.github.io/extralifestmarys",
   "keywords": [
     "react",
     "reactjs",
@@ -67,7 +68,9 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
     "minify-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --output-style compressed",
-    "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true"
+    "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

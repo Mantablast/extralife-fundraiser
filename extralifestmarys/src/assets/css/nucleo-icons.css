@@ -624,7 +624,7 @@ Created using IcoMoon - icomoon.io
 
 .iconsize {
   width: 200px;
-  height: 100px;
+  height: 90px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -642,7 +642,7 @@ Created using IcoMoon - icomoon.io
 
 .iconsmall{
   width: 100px;
-  height: 50px;
+  height: 45px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top:40px;
@@ -660,8 +660,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .childLogo {
-  width: 50vw;
-  height: 15vh;
+  width: 35vw;
+  height: 20vh;
 }
 
 .playerBox {
