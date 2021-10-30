@@ -27,10 +27,11 @@ import Index from "views/Index.js";
 import LandingPage from "views/examples/LandingPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import PageHeader from "pages/PageHeader";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PageHeader />
   </React.StrictMode>,
   document.getElementById('root')
 );
