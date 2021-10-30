@@ -1,7 +1,7 @@
 {
-  "name": "blk-design-system-react",
+  "name": "extralife-fundraiser",
   "version": "1.2.0",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "An app designed to redirect traffic and display livestream content for viewers",
   "main": "index.js",
   "author": "Aimee Jesso",
   "license": "The Unlicense",
