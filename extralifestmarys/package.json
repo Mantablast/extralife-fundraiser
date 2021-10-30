@@ -1,11 +1,10 @@
 {
   "name": "blk-design-system-react",
-  
   "version": "1.2.0",
   "description": "React version of BLK Design System by Creative Tim",
   "main": "index.js",
-  "author": "Creative Tim",
-  "license": "MIT",
+  "author": "Aimee Jesso",
+  "license": "The Unlicense",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
@@ -13,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
-  "homepage": "http://mantablast.github.io/extralife-fundraiser",
+  "homepage": "http://mantablast.github.io/extralifestmarys",
   "keywords": [
     "react",
     "reactjs",
@@ -89,5 +88,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
