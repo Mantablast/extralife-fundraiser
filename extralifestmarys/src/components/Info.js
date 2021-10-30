@@ -42,7 +42,7 @@ export default function Info() {
             <div className="flex-center">
                 <h3>Raising funds for:</h3>
                 <img className="childLogo flex-center" alt="Children's Hospital Logo" src={childrenLogo} />
-                <iframe width="400px" height="200px" src="http://extralife-helper.breadweb.net/?r=1&pid=468206&tid=&w=400&b=1&t=0&v=0&g=1&a=1&y=2&l=en-us&vo=86&st=1636189200000&td=0
+                <iframe width="400px" height="200px" src="https://extralife-helper.breadweb.net/?r=1&pid=468206&tid=&w=400&b=1&t=0&v=0&g=1&a=1&y=2&l=en-us&vo=86&st=1636189200000&td=0
                 " title="Helper" frameBorder="0"  ></iframe>
             </div>
             <div className="playerBox">
