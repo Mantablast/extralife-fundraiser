@@ -35,7 +35,7 @@ export default function LiveStream() {
             <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={twitchIcon} /></a>
 
             <iframe className videoBox
-                src="https://player.twitch.tv/?channel=frankthepegasus&parent=mantablast.github.io/extralife-fundraiser"
+                src="https://player.twitch.tv/?channel=frankthepegasus&parent=mantablast.github.io"
                 height="720"
                 width="1280"
                 allowfullscreen="true">
