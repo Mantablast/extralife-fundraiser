@@ -34,7 +34,7 @@ const youtubeId = "RnvhuvYufuE";
         {/* <Twitch /> */}
         <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={twitchIcon} /></a>
         <html>
-        <iframe className="videoBox" src={"https://player.twitch.tv/?channel=frankthepegasus&parent=www.mantablast.github.io/extralife-fundraiser/"} frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+        <iframe className="videoBox" src={"https://player.twitch.tv/?channel=frankthepegasus&parent=mantablast.github.io/extralife-fundraiser/"} frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
         </html>
 
         <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={fblive} /></a>
