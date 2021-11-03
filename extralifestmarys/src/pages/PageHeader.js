@@ -26,7 +26,7 @@ export default function PageHeader() {
             <h1 className="">November 6, 2021</h1>
             <h1 className="">24 hour St. Marys</h1>
             <h1 className="">Game-a-thon</h1>
-            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="border15 imgadjust" alt="Company Logo" src={donateButton} /></a>
+            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=59390"><img className="border15 imgadjust" alt="Company Logo" src={donateButton} /></a>
             
           </div>
         </div>
