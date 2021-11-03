@@ -28,21 +28,21 @@ export default function LiveStream() {
         <div className="flex-center">
             <Info />
             {/* Youtube /> */}
-            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={YoutubeLive} /></a>
+            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=59390"><img className="iconsmall" alt="Company Logo" src={YoutubeLive} /></a>
             <iframe className="videoBox" width="900" height="550" src={"https://www.youtube.com/embed/" + youtubeId} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true} ></iframe>
 
             {/* <Twitch /> */}
-            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={twitchIcon} /></a>
+            {/* <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={twitchIcon} /></a>
 
             <iframe className videoBox
-                src="https://player.twitch.tv/?channel=frankthepegasus&parent=mantablast.github.io"
+                src="https://player.twitch.tv/?frankthepegasus&parent=localhost"
                 height="720"
                 width="1280"
                 allowfullscreen="true">
-            </iframe>
+            </iframe> */}
 
 
-            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=468206"><img className="iconsmall" alt="Company Logo" src={fblive} /></a>
+            <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=59390"><img className="iconsmall" alt="Company Logo" src={fblive} /></a>
             <iframe className="videoBox" src={fbLink} width="500" height="1027" scrolling="no" frameBorder="0" allowFullscreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
             <h2>About Extralife</h2>
