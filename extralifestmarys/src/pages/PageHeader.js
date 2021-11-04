@@ -28,6 +28,7 @@ export default function PageHeader() {
             <h1 className="">Game-a-thon</h1>
             <a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=59390"><img className="border15 mainLogo" alt="Company Logo" src={donateButton} /></a>
             
+            
           </div>
         </div>
         <LiveStream />

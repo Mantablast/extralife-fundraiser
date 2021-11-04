@@ -43,7 +43,7 @@ export default function Info() {
                 <h3>Raising funds for:</h3>
                 <img className="childLogo flex-center" alt="Children's Hospital Logo" src={childrenLogo} />
                 <html>
-                <iframe width="400px" height="200px" src="http://extralife-helper.breadweb.net/?r=1&pid=59390&tid=&w=400&b=1&t=0&v=0&g=1&a=1&y=2&l=en-us&vo=86&st=1636189200000&td=0
+                <iframe width="400px" height="200px" src="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.streamingOverlay&eventID=550&teamID=59390
                 " title="Helper" frameBorder="0"  ></iframe>
                 </html>
             </div>
