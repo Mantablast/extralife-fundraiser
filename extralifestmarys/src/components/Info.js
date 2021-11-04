@@ -43,8 +43,8 @@ export default function Info() {
                 <h3>Raising funds for:</h3>
                 <img className="childLogo flex-center" alt="Children's Hospital Logo" src={childrenLogo} />
                 <html>
-                <iframe width="400px" height="200px" src="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.streamingOverlay&eventID=550&teamID=59390
-                " title="Helper" frameBorder="0"  ></iframe>
+                
+                <img src="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.streamingOverlay&eventID=550&teamID=59390" alt="Funds thermometer" width="400" height="200" />
                 </html>
             </div>
             <div className="playerBox">
